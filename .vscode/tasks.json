@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ZwajApp.API/ZwajApp.API.csproj",
+                "${workspaceFolder}/SecondApp/SecondApp/SecondApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ZwajApp.API/ZwajApp.API.csproj",
+                "${workspaceFolder}/SecondApp/SecondApp/SecondApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/ZwajApp.API/ZwajApp.API.csproj",
+                "${workspaceFolder}/SecondApp/SecondApp/SecondApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
